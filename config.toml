@@ -16,6 +16,40 @@ theme = "tranquilpeak"
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
 
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+# ------
+# Markup
+# ------
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
+# ------
+# Author
+# ------
+[author]
+  name = "Timothy Lu"
+  bio = "Software Engineer in Finance, ex-Quant, into things like emerging-technology and DIY"
+  location = "New York"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  # gravatarEmail = "thibaud.lepretre@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  twitter = "windsaying"
+  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
+  # googlePlus = "+ThibaudLepretre"
+
 [[menu.main]]
   weight = 1
   identifier = "home"
@@ -40,10 +74,4 @@ theme = "tranquilpeak"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
   url = "/archives"
-
-[author]
-  name = "Timothy Lu"
-  bio = "Software Engineer in Finance, ex-Quant, into things like emerging-technology and DIY"
-  twitter = "windsaying"
-
 
