@@ -7,6 +7,14 @@ theme = "tranquilpeak"
 [params]
   dateFormat = "2 January 2006"
   keywords = ["fintech", "derivatives", "blockchain", "defi", "machine learning"]
+  sidebarBehavior = 1
+  thumbnailImage = true
+  thumbnailImagePosition = "right"
+  autoThumbnailImage = true
+  coverImage = "images/cover.jpg"
+  imageGallery = true
+  hierarchicalCategories = true
+  syntaxHighlighter = 'highlight.js'
 
 [[menu.main]]
   weight = 1
@@ -37,3 +45,5 @@ theme = "tranquilpeak"
   name = "Timothy Lu"
   bio = "Software Engineer in Finance, ex-Quant, into things like emerging-technology and DIY"
   twitter = "windsaying"
+
+
