@@ -1,0 +1,4 @@
+baseURL = "https://timothyxlu.github.io"
+languageCode = "en-us"
+title = "Timothy Lu"
+theme = "tranquilpeak"
