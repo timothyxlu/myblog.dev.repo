@@ -2,3 +2,38 @@ baseURL = "https://timothyxlu.github.io"
 languageCode = "en-us"
 title = "Timothy Lu"
 theme = "tranquilpeak"
+
+#https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md
+[params]
+  dateFormat = "2 January 2006"
+  keywords = ["fintech", "derivatives", "blockchain", "defi", "machine learning"]
+
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 4
+  identifier = "archives"
+  name = "Archives"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+  url = "/archives"
+
+[author]
+  name = "Timothy Lu"
+  bio = "Software Engineer in Finance, ex-Quant, into things like emerging-technology and DIY"
+  twitter = "windsaying"
