@@ -3,5 +3,5 @@
 	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
 [submodule "public"]
 	path = public
-	url = git@github.com:timothyxlu/timothyxlu.github.io
+	url = https://github.com/timothyxlu/timothyxlu.github.io.git
 	branch = master
