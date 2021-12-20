@@ -21,5 +21,14 @@ fields:
   config:
     required: false
   label: title
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary
 pages:
 - content/post/what-do-we-know-about-e-CNY.md
