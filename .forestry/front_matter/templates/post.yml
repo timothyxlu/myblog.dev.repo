@@ -1,6 +1,15 @@
 ---
 label: post
 hide_body: false
-fields: []
+fields:
+- name: created
+  type: datetime
+  label: created
+  description: created
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/post/what-do-we-know-about-e-CNY.md
