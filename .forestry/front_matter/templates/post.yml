@@ -11,5 +11,15 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: category
+  type: tag_list
+  default: []
+  label: category
+  description: category
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 pages:
 - content/post/what-do-we-know-about-e-CNY.md
