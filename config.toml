@@ -12,6 +12,7 @@ theme = "tranquilpeak"
   thumbnailImagePosition = "right"
   autoThumbnailImage = true
   coverImage = "images/blockchain_cover.png"
+  favicon = "images/enterpriseC.ico"
   imageGallery = true
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
